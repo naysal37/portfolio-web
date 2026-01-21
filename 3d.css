@@ -21,7 +21,13 @@
   z-index: 2; /* Ensures it's above the background but below 3D object */
   max-width: 80%;
   padding: 20px;
-  background-color: #ededed; /* Optional: Add semi-transparent background for text readability */
+  background-color: rgba(
+    16,
+    24,
+    39,
+    0.92
+  ); /* Optional: Add semi-transparent background for text readability */
+  border: 1px solid rgba(124, 246, 255, 0.12);
   border-radius: 10px;
   margin-top: -460px;
 }
