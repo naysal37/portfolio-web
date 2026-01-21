@@ -1,0 +1,184 @@
+/* SECTION BANNER */
+
+#banner {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background: transparent;
+  color: var(--text);
+}
+
+/* SECTION LAYANAN */
+#layanan {
+  background: var(--slate) !important;
+}
+
+.layanan h1 {
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.layanan p {
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#tentang {
+  background: var(--navy) !important;
+}
+
+.tentang h1 {
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.tentang p {
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#portofolio {
+  padding-bottom: 8rem;
+}
+
+#portofolio h1 {
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+#portofolio p {
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.porto {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.project {
+  display: none;
+}
+
+#contact {
+  padding-top: 0dvh;
+  padding-bottom: 0dvh;
+}
+/* 
+#contact .container-fluid{
+  background: #081b29 !important;
+} */
+
+#contact h1 {
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  color: var(--text);
+}
+
+#klien h1 {
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  color: #081b29;
+  margin-bottom: 10px;
+}
+
+#klien p {
+  color: #081b29;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+#footer {
+  background: var(--slate);
+}
+
+.social-icons a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  background-color: transparent;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.social-icons a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--accent);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.social-icons a:hover::before {
+  width: 100%;
+}
+
+.social-icons a:hover {
+  color: var(--navy);
+}
+
+#team {
+  padding: 0;
+}
+
+#team h1 {
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+#team h4 {
+  margin-top: 10px;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+#team p {
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.team {
+  margin-top: 6rem;
+}
+
+#klien {
+  background: var(--slate);
+}
+
+#klien h1 {
+  font-size: 45px !important;
+  font-weight: 700 !important;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+#klien p {
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 300;
+}
